@@ -1,0 +1,555 @@
+ html{ 
+       scroll-behavior: smooth;
+
+}
+body{
+    margin: 0;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+height: 1000vh ;
+
+}
+.contenar{
+    background-color: rgb(32, 19, 19);
+padding:141px 0 ;
+position: relative;
+transition:  0.5s ease;
+
+
+}
+
+
+.ph{
+    position: absolute;
+    top: 0;
+    left: 41px;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.ph {
+    width: 91%;
+display: flex;
+justify-content: space-between;
+  }
+  
+
+.lis{
+    display: flex;
+    gap: 21px;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.lis :first-child{
+transition: 0.3s ease-in-out;
+text-decoration: none;
+
+}
+
+
+.img img {
+    width: 211px;
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+color: white;
+}
+
+.was {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.icons{
+    width: 75%;
+display: flex;
+justify-content: center;
+gap: 9px;
+color: #8B0000;
+margin: 39px;
+}
+
+.icons i {
+    border: 2px solid #8B0000;
+padding: 7px;
+font-size: 18px;
+border-radius: 18px;
+transition: 0.3s ease-in-out;
+cursor: pointer;
+}
+
+.icons i:hover{
+    transform: scale(1.2);
+}
+
+.bt{
+width: 75%;
+    display: flex;
+    justify-content: center;
+    padding-bottom:3px ;
+}
+
+.bt button{
+    background-color: black;
+    color:#8B0000;
+    border:#8B0000 solid 2px;
+    padding: 12px;
+    border-radius: 27px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+
+.bt button:hover{
+    transform: scale(1.2);
+
+}
+
+
+
+#servers .ser {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+
+
+#servers .h{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
+.lis a{
+    color: white;
+    text-decoration: none;
+transition: 0.3s ease-in-out;
+}
+
+.lis a:hover{
+    text-decoration: none;         
+    border-bottom: 2px solid #8B0000;  
+      padding-bottom: 4px; 
+    color: #b10c0c; }
+
+
+    .ser h1{
+position: relative;
+        color: #2F4F4F;
+
+            }
+
+
+.ser h1::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: solid #2F4F4F 2px;
+    bottom: -11px;
+    background-color: white;
+}
+
+
+ .ser h1::after{
+          position: absolute;
+        content: "";
+        top: 50%;
+        left: 50%;
+        
+        border-bottom: 2px solid #2F4F4F;
+                padding-bottom: 14px;
+        width: 79px;
+
+            transform: translate(-50%, 50%);
+  }
+.ser .hh{
+    display: flex;
+    justify-content: center;
+    opacity: .6;
+}
+.iconser {
+
+    display: grid;
+grid-template-columns: repeat(2, 1fr); /* عمودين متساويين */
+gap: 5px; 
+justify-items: center;
+} 
+
+.hr{
+    margin-top: 82px;
+width: 0%;
+}
+.iconser h3{
+ color: #00BFFF;   
+font-size: 23px;
+cursor: pointer;
+    transition:0.3s;
+
+}
+
+.iconser h5{
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+.iconser i {
+    position: relative;
+    left: -74px;
+    bottom: -95px;
+    font-size: 37px;
+    opacity: 0.6;
+}
+
+
+.iconser h3:hover{
+    opacity: 0.8;
+border-bottom:1px  solid #00BFFF ;
+width: 72px;
+}
+
+  
+.iconser .hth:hover{
+    width: 186px;
+}
+
+
+
+.protofole{
+    width: 100%;
+    margin-top: 166px;
+ 
+}
+
+.protofole h1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    letter-spacing: 3px;
+}
+
+
+.protofole .h4{
+    opacity: .6;
+    position: relative;
+    bottom: -33px;
+    letter-spacing: 1px;
+display: flex;
+justify-content: center;
+}
+
+
+.centerpro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+margin-top: 70px;
+
+}
+.centerpro p{
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.centerpro p:hover{
+    background-color: #00BFFF;
+    color: white;
+    padding: 15px;
+    height: 10px;
+    border-radius: 9px;
+    text-align: center;
+opacity: 0.5;    
+}
+
+.noclick{
+    cursor: pointer;
+    text-align: center;
+}
+
+ .click {
+    background-color: #00BFFF;
+    color: white;
+    padding: 15px;
+    height: 10px;
+    border-radius: 9px;
+    text-align: center;
+    width: 44px;
+    text-align: center;
+}
+
+
+.photopro{
+    cursor: pointer;
+    background-color: #00BFFF;
+    color: white;
+    padding: 15px;
+    height: 10px;
+    border-radius: 9px;
+    text-align: center;
+    width: 114px; 
+}
+
+.img-box img{
+    width: 280px;
+    height: 246px;
+    max-width: 100%;  
+       transition: 0.4s;
+
+}
+
+
+
+
+ .img-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    max-width: 100%;
+margin-top:49px ;
+gap: 9px;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.box .caption {
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background: white;
+    width: 100%;
+    transition: 0.3s;
+    padding-bottom: 8px;
+    transition: 0.3s;
+    bottom: -100%;
+    box-shadow: 4px 9px 9px -5px;
+
+}
+/* 
+.box.caption i{
+    pointer-events: auto;
+} */
+
+.box .caption p{
+    font-size: 11px;
+    color:#00BFFF;
+}
+
+
+
+
+
+
+.img-box img:hover{
+    transform:scale(1.3);
+    opacity: 0.9;
+}
+  
+.img-box .box:hover .caption{
+bottom: 0;
+}
+
+
+.addimgn{
+    width: 100%;
+    background-color:#00BFFF;
+position: relative;    
+}
+
+.addimgn .caption p{
+color: #00BFFF;
+pointer-events: none;
+}
+
+
+.addimgn .caption {
+    background-color: rgb(255, 254, 254);
+    box-shadow: 7px 8px 11px -6px  ;
+    width: 100%;
+    margin-bottom: -20px;
+/* left: 0;
+bottom: 20px; */
+padding-top: 1px;
+}
+
+
+.addimgn label{
+    width: 100%;
+display: flex;
+height: 59%;
+align-items: center;
+justify-content: center;
+font-size: 59px;
+}
+.addimgn i {
+   cursor: pointer;
+   color: white;
+ 
+}
+
+.addimgn input{
+    opacity: 0;
+pointer-events: none;
+} 
+
+.boxnew{
+    position: relative;
+    overflow: hidden;
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+}
+
+.plist{
+    font-size: 11px;
+    color: #00BFFF;
+    pointer-events: none;}
+
+
+  .boxnew .imglist{  
+          width: 280px;
+        height: 246px;
+        max-width: 100%;
+        transition: 0.4s;}
+
+        .imglist:hover{
+            transform:scale(1.3);
+            opacity: 0.9;
+        }
+
+.boxnew .caplist{
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background: white;
+    width: 100%;
+    transition: 0.3s;
+    padding-bottom: 8px;
+    transition: 0.3s;
+    bottom: -100%;
+    box-shadow: 4px 9px 9px -5px;
+}
+
+.img-box #boxnew:hover .caplist{
+bottom: 0;
+}
+
+
+.icon-box{  
+    position: relative;
+    background-color: red;
+    right: -202px;
+    width: 28px;
+}
+
+.caption i{
+    color: white;
+    padding: 6px;
+    right: -212px;
+    bottom: 5px;
+cursor: pointer;
+transition: 0.4s;
+
+}
+
+.clak{
+    color: white;
+    padding: 6px;
+    right: -212px;
+    bottom: 5px;
+cursor: pointer;
+transition: 0.4s; 
+}
+
+.caption i:hover{
+    animation: shakeTwice 0.5s ease;
+}
+
+@keyframes shakeTwice {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-15deg); }
+    50% { transform: rotate(15deg); }
+    75% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+
+  .clicksave{
+    width: 100%;
+    text-align: center;
+    margin-top: 78px;
+  }
+
+  .buttonsave{
+    background-color:#00BFFF;
+    color: white;
+    width: 87px;
+    border: solid 2px #00BFFF;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  
+  .save{
+    background-color:red;
+    color: white;
+    width: 87px;
+    border: solid 2px red;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+
+  }
+
+
+  .block{
+opacity: 1;
+}
+
+  .none{
+opacity: 0;
+pointer-events: none;
+}
+
+
+
+
+.he{
+    margin-top: 126px;
+    width: 0;
+}
+
+.ello{
+    width: 96%;
+     margin: 2%;
+    }
